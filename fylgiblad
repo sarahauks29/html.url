@@ -1,109 +1,109 @@
 <html>
-   <head>
-<style type="text/css">
-    * {
-        margin: 0;
-        padding: 0;
-        text-indent: 0;
-    }
+<head>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
 
-    h1 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 14.5pt;
-    }
+        h1 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14.5pt;
+        }
 
-    h3 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 9.5pt;
-    }
+        h3 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 9.5pt;
+        }
 
-    .s1 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: none;
-        font-size: 8pt;
-    }
+        .s1 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 8pt;
+        }
 
-    .s2 {
-        color: #606160;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: none;
-        font-size: 8pt;
-    }
+        .s2 {
+            color: #606160;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 8pt;
+        }
 
-    .s3 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 8pt;
-    }
+        .s3 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 8pt;
+        }
 
-    .s4 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: none;
-        font-size: 9pt;
-    }
+        .s4 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9pt;
+        }
 
-    .s5 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 10pt;
-    }
+        .s5 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 10pt;
+        }
 
-    p {
-        color: #606160;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: none;
-        font-size: 8pt;
-        margin: 0pt;
-    }
+        p {
+            color: #606160;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 8pt;
+            margin: 0pt;
+        }
 
-    .h4 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 10pt;
-    }
+        .h4 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 10pt;
+        }
 
-    h2 {
-        color: #1C1D1B;
-        font-family: Arial, sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 10.5pt;
-    }
+        h2 {
+            color: #1C1D1B;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 10.5pt;
+        }
 
-    table,
-    tbody {
-        vertical-align: top;
-        overflow: visible;
-    }
-</style>
+        table,
+        tbody {
+            vertical-align: top;
+            overflow: visible;
+        }
+    </style>
 </head>
 
 <body>
@@ -172,25 +172,8 @@
                 <p class="s5" style="padding-top: 2pt;padding-right: 2pt;text-indent: 0pt;text-align: right;">Samtals</p>
             </td>
         </tr>
-        {{each_line_items}}
-        <tr style="height:22pt">
-            <td style="width:64pt;border-top-style:solid;border-top-width:1pt;border-top-color:#BABABA;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#BABABA;border-right-style:solid;border-right-width:1pt;border-right-color:#BABABA">
-                <p class="s4" style="padding-top: 5pt;padding-left: 3pt;text-indent: 0pt;text-align: left;">{{kind}}</p>
-            </td>
-            <td style="width:244pt;border-top-style:solid;border-top-width:1pt;border-top-color:#BABABA;border-left-style:solid;border-left-width:1pt;border-left-color:#BABABA;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#BABABA;border-right-style:solid;border-right-width:1pt;border-right-color:#BABABA">
-                <p class="s4" style="padding-top: 5pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">{{description}}</p>
-            </td>
-            <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-top-color:#BABABA;border-left-style:solid;border-left-width:1pt;border-left-color:#BABABA;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#BABABA;border-right-style:solid;border-right-width:1pt;border-right-color:#BABABA">
-                <p class="s4" style="padding-top: 5pt;padding-right: 5pt;text-indent: 0pt;text-align: right;">{{quantity}}</p>
-            </td>
-            <td style="width:71pt;border-top-style:solid;border-top-width:1pt;border-top-color:#BABABA;border-left-style:solid;border-left-width:1pt;border-left-color:#BABABA;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#BABABA;border-right-style:solid;border-right-width:1pt;border-right-color:#BABABA">
-                <p class="s4" style="padding-top: 5pt;padding-right: 5pt;text-indent: 0pt;text-align: right;">{{unit_price}}</p>
-            </td>
-            <td style="width:76pt;border-top-style:solid;border-top-width:1pt;border-top-color:#BABABA;border-left-style:solid;border-left-width:1pt;border-left-color:#BABABA;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#BABABA">
-                <p class="s3" style="padding-top: 5pt;padding-right: 2pt;text-indent: 0pt;text-align: right;">{{amount}}</p>
-            </td>
-        </tr>
-        {{/each_line_items}}
+        <!-- Placeholder for dynamic line items -->
+        {{line_items}}
     </table>
     <p style="padding-top: 10pt;padding-right: 90pt;text-indent: 0pt;text-align: left;"><br /></p>
     <p style="text-indent: 0pt;padding-right: 0pt;text-align: right;">Samtals án vsk <span class="h4">{{total_before_tax}}</span></p>
@@ -200,4 +183,5 @@
     <h2 style="text-indent: 0pt;padding-right: 0pt;text-align: right;">Samtals með vsk {{total_with_tax}}</h2>
 </body>
 </html>
+
 
