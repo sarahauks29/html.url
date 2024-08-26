@@ -1,3 +1,5 @@
+<html>
+   <head>
 <style type="text/css">
     * {
         margin: 0;
@@ -170,7 +172,7 @@
                 <p class="s5" style="padding-top: 2pt;padding-right: 2pt;text-indent: 0pt;text-align: right;">Samtals</p>
             </td>
         </tr>
-        {{#each_line_items}}
+        {{each_line_items}}
         <tr style="height:22pt">
             <td style="width:64pt;border-top-style:solid;border-top-width:1pt;border-top-color:#BABABA;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#BABABA;border-right-style:solid;border-right-width:1pt;border-right-color:#BABABA">
                 <p class="s4" style="padding-top: 5pt;padding-left: 3pt;text-indent: 0pt;text-align: left;">{{kind}}</p>
