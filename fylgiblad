@@ -191,11 +191,11 @@
         {{/each_line_items}}
     </table>
     <p style="padding-top: 10pt;padding-right: 90pt;text-indent: 0pt;text-align: left;"><br /></p>
-    <p style="text-indent: 0pt;padding-right: 125pt;text-align: right;">Samtals án vsk <span class="h4">{{total_before_tax}}</span></p>
-    <p style="padding-top: 3pt;text-indent: 0pt;padding-right: 125pt;text-align: right;">Afsláttur ({{discount}}%) <span class="h4">{{discount_amount}}</span></p>
-    <p style="padding-top: 3pt;text-indent: 0pt;padding-right: 125pt;text-align: right;">Vsk ({{tax}}%) <span class="h4">{{tax_amount}}</span></p>
+    <p style="text-indent: 0pt;padding-right: 0pt;text-align: right;">Samtals án vsk <span class="h4">{{total_before_tax}}</span></p>
+    <p style="padding-top: 3pt;text-indent: 0pt;padding-right: 0pt;text-align: right;">Afsláttur ({{discount}}%) <span class="h4">{{discount_amount}}</span></p>
+    <p style="padding-top: 3pt;text-indent: 0pt;padding-right: 0pt;text-align: right;">Vsk ({{tax}}%) <span class="h4">{{tax_amount}}</span></p>
     <p style="padding-top: 3pt;text-indent: 0pt;text-align: left;"><br /></p>
-    <h2 style="text-indent: 0pt;padding-right: 125pt;text-align: right;">Samtals með vsk {{total_with_tax}}</h2>
+    <h2 style="text-indent: 0pt;padding-right: 0pt;text-align: right;">Samtals með vsk {{total_with_tax}}</h2>
 </body>
 </html>
 
