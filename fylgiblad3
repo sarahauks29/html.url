@@ -515,26 +515,26 @@ footer a:first-child{
   <table class="summary">
     <tr>
       <th>
-        Subtotal
+        Samtals án vsk
       </th>
       <td>
-        $1200.00
+       {{total_before_tax}} 
       </td>
     </tr>
     <tr>
       <th>
-        Tax 4.7%
+        Vsk ({{tax}}%)
       </th>
       <td>
-        $000.00
+        {{tax_amount}}
       </td>
     </tr>
     <tr class="total">
       <th>
-        Total
+        Samtals með vsk
       </th>
       <td>
-        $12,000.00
+        {{total_with_tax}}
       </td>
     </tr>
   </table>
